@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Travel Weather">
     <meta name="keywords" content="HTML, CSS, JavaScript, API">
-    <meta name="author" content="Karen Bourgeois and devjaiye">
+    <meta name="author" content="Karen Bourgeois and devjaiye Learning">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,15 +21,17 @@
     <title>Travel Weather</title>
 </head> 
 
-<body style="background-color: rgb(86, 11, 165);">
+<body style="background-color: #023E8A;">
     
-    <div class="cards" style="width: 400px; height: 300px; background-color: rgb(86, 11, 165);">
+    <div style="width: 400px; height: 300px;">
+        <div id="#pastsearches"></div>
+        
         <div class="wrapper">
             <header><i class="bx bx-left-arrow-alt"></i>Weather App</header>
             <!-- input and button -->
             <section class="input-part">
                 <p class="info-text"></p>
-                <input type="text" placeholder="Enter city here..." spellcheck="false" required>
+                <input type="text" placeholder="Enter city here..." spellcheck="false" required class="text-box">
                 <div class="separator"></div>
                 <button>Get Device Location</button>
             </section>
@@ -67,7 +69,18 @@
                             </div>
                         </div>
                     </section>
-                </div>   
+                </div> 
+            <hr>
+            <!-- 5-day forecast -->
+            <div id="cards" hidden>
+                <h3 class="text-center">5-Day Forecast</h3>
+                <div class="row">
+                    <div class="card p-1 col-sm-12 m-3 bg-info text-light text-center" id="day-1"></div>
+                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-2"></div>
+                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-3"></div>
+                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-4"></div>
+                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-5"></div>
+            </div>
     </div>
 
     <script src="script.js"></script>
