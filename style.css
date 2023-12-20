@@ -10,7 +10,7 @@ body {
     min-height: 75vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(86, 11, 165);
+    
 }
 
 .wrapper {
@@ -21,8 +21,9 @@ body {
 }
 
 .wrapper header {
-    color: rgb(86, 11, 165);
+    color: #023E8A;
     font-size: 21px;
+    font-weight: bold;
     font-weight: 500;
     padding: 16px 16px;
     display: flex;
@@ -35,7 +36,7 @@ header i {
     cursor: pointer;
     font-size: 0px;
     margin-right: 8px;
-    color: rgb(86, 11, 165);
+    color: #0077B6;
 }
 
 .wrapper.active header i{
@@ -45,7 +46,7 @@ header i {
 
 .wrapper .input-part{
     margin: 20px 25px 30px;
-    color: rgb(86, 11, 165);;
+    color: #ffff;
 }
 
 .wrapper.active .input-part{
@@ -63,12 +64,12 @@ header i {
 
 /* input required style */
 .input-part input::is(:focus, :valid){
-    border: 2px solid #43AFFC;
+    border: 2px solid #ccc;
 }
 
 .input-part input{
     text-align: center;
-    border: 1px solid #bfbfbf;
+    border: 1px solid #ccc;
 }
 
 .input-part .info-text{
@@ -113,10 +114,14 @@ header i {
 
 }
 
+.text-box {
+    background-color: #f0f0f0;
+}
+
 .input-part button{
     color: #fff;
     cursor: pointer;
-    background: rgb(86, 11, 165);
+    background: #0077B6;
     border-radius: 35px;
 }
 
