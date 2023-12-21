@@ -40,7 +40,7 @@ There is no installation needed as this is a web application.
 
 ## Usage
 
-The purpose of this application is to show how I can use HTML, CSS, JS and etc. This is an application where you can see the weather for five days.
+The purpose of this application is to show how I can use HTML, CSS, JS and etc. This is an application where you can see the weather for five days. I wasn't able to get the 5-day forecast working without going through a couple of tutorials. And they still don't work
 
 ## Credits
 
@@ -49,6 +49,8 @@ The purpose of this application is to show how I can use HTML, CSS, JS and etc. 
 - https://www.joshwcomeau.com/css/custom-css-reset/,
 - iso.500px.com,
 - devjaiye - https://github.com/devjaiye/js-weather-app
+- Корміч, Олександр Ігорович. "Система управління онлайн бібліотекою." 2021, https://core.ac.uk/download/541278504.pdf?
+- https://www.youtube.com/@FrameworkTV
 
 ## Badges
 

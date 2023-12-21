@@ -28,14 +28,14 @@
         
         <div class="wrapper">
             <header><i class="bx bx-left-arrow-alt"></i>Weather App</header>
-            <!-- input and button -->
+            
             <section class="input-part">
                 <p class="info-text"></p>
                 <input type="text" placeholder="Enter city here..." spellcheck="false" required class="text-box">
                 <div class="separator"></div>
                 <button>Get Device Location</button>
             </section>
-            <!-- display weather info -->
+            
                     <section class="weather-part">
                         <img src="icons/cloud.svg" alt="weather icon">
                         <div class="temp">
@@ -72,14 +72,9 @@
                 </div> 
             <hr>
             <!-- 5-day forecast -->
-            <div id="cards" hidden>
+            <div  hidden>
                 <h3 class="text-center">5-Day Forecast</h3>
-                <div class="row">
-                    <div class="card p-1 col-sm-12 m-3 bg-info text-light text-center" id="day-1"></div>
-                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-2"></div>
-                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-3"></div>
-                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-4"></div>
-                    <div class="card p-2 col-sm-12 m-3 bg-info text-light text-center" id="day-5"></div>
+                <div id="forecast"></div>
             </div>
     </div>
 
